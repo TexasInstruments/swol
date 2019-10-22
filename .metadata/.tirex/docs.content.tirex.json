@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Documentation Overview",
+        "resourceType": "file",
+        "location": "../../docs/Documentation_Overview.html",
+        "categories": [
+            [
+                "Documents"
+            ]
+        ]
+    },
+    {
+        "name": "Users Guide",
+        "resourceType": "file",
+        "location": "../../docs/Users_Guide.html",
+        "categories": [
+            [
+                "Documents"
+            ]
+        ]
+    },
+    {
+        "name": "Release Notes",
+        "resourceType": "file",
+        "location": "../../release_notes_simplelink_sdk_plugin_0_01_01_00.html",
+        "categories": [
+            [
+                "Documents"
+            ]
+        ]
+    }
+]

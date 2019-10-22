@@ -1,0 +1,20 @@
+<RCC>
+  <qresource>
+    <file>images/cogwheel.svg</file>
+    <file>images/open_logger_gray.svg</file>
+    <file>images/open_logger_white.svg</file>
+    <file>images/x_icon.svg</file>
+    <file>images/x_icon_h.svg</file>
+    <file>images/search.svg</file>
+    <file>images/horizontal_splitter_handle.png</file>
+    <file>images/ti_small.png</file>
+    <file>images/start.svg</file>
+    <file>images/stop.svg</file>
+    <file>images/favicon.ico</file>
+    <file>images/wireshark.svg</file>
+    <file>images/gandelf_icon.svg</file>
+    <file>images/session.svg</file>
+    <file>images/session_white.svg</file>
+    <file>fonts/ti-icon-fonts.ttf</file>
+  </qresource>
+</RCC>

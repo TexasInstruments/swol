@@ -1,0 +1,15 @@
+[
+    {
+        "metadataVersion": "3.0.0",
+        "id": "com.ti.SWOL",
+        "name": "Single Wire Output Logger (SWOL)",
+        "version": "0.01.01.00",
+        "type": "software",
+        "image": "./simplelink_sdk_plugin.png",
+        "description": "Single Wire Output Logger (SWOL)",
+        "dependencies": [{"packageID": "com.ti.SIMPLELINK_CC2640R2_SDK", "version" : "3.20.00.21"}, {"packageID": "com.ti.SIMPLELINK_CC13X2_26X2_SDK", "version" : "3.20.00.68"}],
+        "allowPartialDownload": "false",
+        "devices": ["MSP432P4xx"],
+        "rootCategory" : ["SimpleLink SDK Plugins", "Single Wire Output Logger (SWOL)"]
+    }
+]

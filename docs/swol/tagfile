@@ -1,0 +1,681 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<tagfile>
+  <compound kind="file">
+    <name>SWO.h</name>
+    <path>/project/source/ti/drivers/</path>
+    <filename>_s_w_o_8h</filename>
+    <class kind="struct">SWO_Params_</class>
+    <member kind="define">
+      <type>#define</type>
+      <name>SWO_BAUD_RATE</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa83b8f663f18dc74afeba8882edf1fb3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SWO_CREATE_EVENT</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a04f79d7e3e2e06d98841ad6aedc69c47</anchor>
+      <arglist>(logModule, event, info)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SWO_IDLE_BUFFER_SIZE</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a63aaa4774f09e0bafbe23b273c19029d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SWO_LogLevel_MASK</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a0020e503af709b0252e2ea2f4f9205d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SWO_LogLevel_MASK_ERROR</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aaf724a85b826d032f26499367ce65f5d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SWO_LogLevel_MASK_INFO</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a285282c9671a91e993620f86630e40a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SWO_LogLevel_MASK_KERNELLOG</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a2ea50f8375cf7bfe124ef2c916d7041c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SWO_LogLevel_MASK_USER1</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a85892a416572b175b65a3732f717d4b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SWO_LogLevel_MASK_USER2</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a9ea0c16afc3eab640863811e0a1bcb3e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SWO_LogLevel_MASK_WARNING</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a358fb6d5e8b297635f36d10fdf8eb4da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SWO_PIN</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a915180d9556bdfb86cde79c64bfe6b80</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>uintptr_t</type>
+      <name>SWO_Event</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a4f890ebc6a0ff992c7a50dd3aac807d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>uint8_t</type>
+      <name>SWO_EventSet</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a27ad1cd7860d9d5f37f3be711132bdab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>enum SWO_LogLevel_</type>
+      <name>SWO_LogLevel</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a91984b9d346e8ad63b458f8cdacf714f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>enum SWO_LogModule_</type>
+      <name>SWO_LogModule</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a75683480e80e91fe428a3f50375d3a3c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>struct SWO_Params_</type>
+      <name>SWO_Params</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>ae924d346889fe2c14837e40167a01527</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>enum SWO_Status_</type>
+      <name>SWO_Status</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a656c7eaa95ee58857095bd315c6189d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>enum SWO_StimulusPorts_</type>
+      <name>SWO_StimulusPorts</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>ab306895b943ca978e8632248c25e8470</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>enum SWO_Watchpoint_</type>
+      <name>SWO_Watchpoint</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a94cada8173b54f636fb73a0abda0e208</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>enum SWO_WatchpointFunction_</type>
+      <name>SWO_WatchpointFunction</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>ab7d203c9202315b3c4b363c15d1d965a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>SWO_LogLevel_</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>adb3e04e3353ad7a7eab773116e22b93e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_LogLevel_INFO</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>adb3e04e3353ad7a7eab773116e22b93ea963fbc66ac399ec8e8bcacb254eace7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_LogLevel_WARNING</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>adb3e04e3353ad7a7eab773116e22b93ea285eff2b2f94f91fdc5bd56a03a13572</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_LogLevel_ERROR</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>adb3e04e3353ad7a7eab773116e22b93ea64b10628b9c94ea8a481f32d5d8475c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_LogLevel_KERNELLOG</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>adb3e04e3353ad7a7eab773116e22b93ea8c0a705430b2a13b0db0555117b3c660</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_LogLevel_USER1</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>adb3e04e3353ad7a7eab773116e22b93ea0a71a226f54b3653452a118cab9fd663</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_LogLevel_USER2</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>adb3e04e3353ad7a7eab773116e22b93ea7e5256b0d9109ab24c15d3a05c2aebe2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>SWO_LogModule_</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a2cc8222fbfef1c3431681c4ed7f7cf95</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_LogModule_BLEStack</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a2cc8222fbfef1c3431681c4ed7f7cf95a2f478eea2575bb86b217bda3b57308d9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_LogModule_Driver</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a2cc8222fbfef1c3431681c4ed7f7cf95a0587080fc47c29a6953c70ace30a5dfd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_LogModule_User</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a2cc8222fbfef1c3431681c4ed7f7cf95a4b0cc38482a770f0794b1268f1154963</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_LogModule_KernelLog</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a2cc8222fbfef1c3431681c4ed7f7cf95a7fdea8d43c7db13ae2bd7623fe957d5e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_LogModule_RTLS</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a2cc8222fbfef1c3431681c4ed7f7cf95a23bf831216abac4291ed7b79c7a841a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_LogModule_DMM</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a2cc8222fbfef1c3431681c4ed7f7cf95a0972a8079ccd538a6c3b0e9e884561c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_LogModule_RF</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a2cc8222fbfef1c3431681c4ed7f7cf95a2a849ddcbfbb14ebfc00b0b0057693e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>SWO_Status_</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a8049545cc9cecb56ba8617e1c443aef4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_STATUS_SUCCESS</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a8049545cc9cecb56ba8617e1c443aef4a7b826737b2845ce8a73e5cbffdc1783c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_STATUS_PIN_UNAVAILABLE</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a8049545cc9cecb56ba8617e1c443aef4a9e435e46a1c6b993b46fb3498629437e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>SWO_StimulusPorts_</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RESV0</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faafe4058c15c6c72abcef0be47c3e9f6a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RESV1</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faabe6d14d011f838cbcdd0460e593ad75d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RESV2</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa0b1117085adbaa41629d0e9f436998da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RESV3</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faad18e9ea92f7e833f3de5ad65f92ad7e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RESV4</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa145f553fdad592c26324ca6c3e7d0675</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RESV5</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa824e6ee232c5abbfa57f3dbbf85daf3f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RESV6</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faabf496aee1cf0864c68a52bc13ea08b6e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RESV7</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa5f277280606bdc6393b3094c440f7aed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RESV8</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa8fd0c210ee5cf95757f827432ede0fb5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RESV9</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa8652d870987030701c148a2daf00d069</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RESV10</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faac5783ae00b4a476854de03edc297cff2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_TIME_SYNC</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa75c7394b6ab8c07b394537f4cb7cfc4e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_DRIVER</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faacb75108412f9017e7226d8cdb0cc817e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_IDLE</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa2f676405e293c5a367ee2c5d32362887</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_HEADER</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa6243f1f37b4bef9fb7dbe5bd368f86da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_TRACE</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faae1a4d236fb57f781a4c03f550ef40a24</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW0</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa5429ebdbc74733bbfd42b1737c67dd7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW1</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa00080f31f9bbdb815ec581213722968b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW2</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faafba062eccebfb675e2e1ad024819da88</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW3</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa6adb64c9986f618068b188e75460f802</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW4</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa95df620922c0ba7b5f1343e4b92ac88d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW5</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faaaab93f7997ea1c19daad7b6a15d1ca67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW6</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa16b72b49e6134346979393478990ef42</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW7</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faafd30652ad8b9bc13055453e3359361cc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW8</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa584006b43837263714a69f1d50f77f52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW9</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faaf2cf29addd5018be5d0c95699a124077</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW10</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faad5393b154180d862d900d7d42d526ada</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW11</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa0d9a798900cf3e4723031e97dc16f334</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW12</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa8810037a0ea888e79caf89639ca72ef5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW13</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa65a4bbd55253865ef7c30ccbd5de24c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW14</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faa0c0824ea93cc1309282e7072a525c33a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STIM_RAW15</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa3c352077f8031363331e1551fc322faae2715ca0e7cc79c456f2b9c646028448</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>SWO_Watchpoint_</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a198024222244db4544417f6557dc7efb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_Watchpoint0</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a198024222244db4544417f6557dc7efbae161238f29f5a8d5222114a9ca4abe31</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_Watchpoint1</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a198024222244db4544417f6557dc7efbaf953caffa7175015abe1bc37d425e511</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_Watchpoint2</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a198024222244db4544417f6557dc7efba8e327ef344cef58f3e436bed2deb200e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_Watchpoint3</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a198024222244db4544417f6557dc7efbaf7baa230c8f248e18d5231712ef73da3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>SWO_WatchpointFunction_</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aedc569fa3ec327b51d5ea57a14b19dc2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_Disabled</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aedc569fa3ec327b51d5ea57a14b19dc2a9278833e22a89ca04be242ff7525b153</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_EmitPc</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aedc569fa3ec327b51d5ea57a14b19dc2ad0a22d3464ed5e6bdc3c44a72aa210b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_EmitDataOnReadWrite</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aedc569fa3ec327b51d5ea57a14b19dc2a5d75ccaaec10e5e65c9e85e484fd917d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_SamplePcAndEmitDataOnReadWrite</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aedc569fa3ec327b51d5ea57a14b19dc2a8721f1e47e399f466a2bff025e71133f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_SampleDataOnRead</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aedc569fa3ec327b51d5ea57a14b19dc2a09505b2c3859aa178a6d3fda6ba0365d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_SampleDataOnWrite</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aedc569fa3ec327b51d5ea57a14b19dc2ae94114d1e5c6c26a70eb46d0e040c692</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_SamplePcAndDataOnRead</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aedc569fa3ec327b51d5ea57a14b19dc2a0e129d1473d6b3c883dd67e88fdebbf7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SWO_SamplePcAndDataOnWrite</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aedc569fa3ec327b51d5ea57a14b19dc2a038aef57672d5b9b8e656d3c36b778dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_close</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a96393695023084b315b5a02cc7aade1a</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_disableWatchpoint</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>ad7ce1f9f2b4e6e0d7cdfb99e5331bfbb</anchor>
+      <arglist>(SWO_Watchpoint watchpoint)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_enableWatchpoint</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a4711c75c02a57984a7b386da8cabd3c4</anchor>
+      <arglist>(SWO_LogModule logModule, const char *string, SWO_Watchpoint watchpoint, SWO_WatchpointFunction function, uintptr_t address)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_event</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a7a5e2b36cb20d6261258c56e1e77e1d9</anchor>
+      <arglist>(SWO_LogModule logModule, SWO_LogLevel logLevel, SWO_Event event,...)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_EventSet_close</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a2f191ce61a8fdc001b65dc873eddd7ca</anchor>
+      <arglist>(SWO_LogModule logModule, SWO_EventSet rec)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_EventSet_init</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>af7c47b870dd8e05fba332f5f05a6c230</anchor>
+      <arglist>(SWO_LogModule logModule, SWO_LogLevel logLevel, SWO_EventSet *set, SWO_Event event)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_EventSet_logBuf</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>aa363e13e3f29ff94e1461a96ab7eba6f</anchor>
+      <arglist>(SWO_LogModule logModule, SWO_LogLevel logLevel, SWO_EventSet rec, const char *string, uint8_t *data, size_t size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_EventSet_logBuf_deferred</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a565785195590970274ac54caf3053a35</anchor>
+      <arglist>(SWO_LogModule logModule, SWO_LogLevel logLevel, SWO_EventSet rec, const char *string, uint8_t *data, size_t size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_EventSet_printf</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>adee12007679cf498ebe2394b04663564</anchor>
+      <arglist>(SWO_LogModule logModule, SWO_LogLevel logLevel, SWO_EventSet rec, const char *format,...)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_EventSet_printf_deferred</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a50e23bb08b6a49b21692905672f50834</anchor>
+      <arglist>(SWO_LogModule logModule, SWO_LogLevel logLevel, SWO_EventSet rec, const char *format,...)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_idleFlush</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a242a3406aba50d94c57a0107ccf948d5</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_init</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a00f96d0714da4af453e9777874e7daf2</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_logBuf</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a08671132eeae4beb12378ab8f31fb079</anchor>
+      <arglist>(SWO_LogModule logModule, SWO_LogLevel logLevel, const char *string, uint8_t *data, size_t size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_logBuf_deferred</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>af410db2dd3fc65f718d4b4292825fdb2</anchor>
+      <arglist>(SWO_LogModule logModule, SWO_LogLevel logLevel, const char *string, uint8_t *data, size_t size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_open</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a7a32503c345b51f11cc8f2ba194ca846</anchor>
+      <arglist>(SWO_Params *params, SWO_Status *status)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_printf</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>a6ea80109a5bb537bf360d9925ad07108</anchor>
+      <arglist>(SWO_LogModule logModule, SWO_LogLevel logLevel, const char *format,...)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SWO_printf_deferred</name>
+      <anchorfile>_s_w_o_8h.html</anchorfile>
+      <anchor>ac31a2e3070f568900d3e8225061f1b67</anchor>
+      <arglist>(SWO_LogModule logModule, SWO_LogLevel logLevel, const char *format,...)</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>SWO_Params_</name>
+    <filename>struct_s_w_o___params__.html</filename>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>dummy</name>
+      <anchorfile>struct_s_w_o___params__.html</anchorfile>
+      <anchor>a44b7a3baf02bac7ad707e8f2f5eca1ca</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="page">
+    <name>index</name>
+    <title>SimpleLink Single Wire Output Logger (SWOL) API Reference</title>
+    <filename>index</filename>
+    <docanchor file="index" title="SWOL">SWOL</docanchor>
+  </compound>
+</tagfile>

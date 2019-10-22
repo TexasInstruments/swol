@@ -1,0 +1,5 @@
+pyserial==3.4
+pyelftools==0.25
+construct==2.9.45
+pyuv==1.4.0
+appdirs==1.4.3

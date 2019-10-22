@@ -1,0 +1,102 @@
+
+QGroupBox {
+    font: bold 12px;
+}
+
+QScrollArea {
+    background-color: white;
+    border: none;e;
+}
+
+QToolButton::menu-indicator {
+    width: 0px;
+}
+
+QPushButton:flat:hover:!pressed {
+    background-color: #3333337F;
+    border-width: 4px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 6px;
+}
+
+QPushButton:flat:hover:pressed {
+    background-color: #7777777F;
+    border-width: 4px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 6px;
+}
+
+QLabel[wiresharkStatus="Closed"] {
+    background-color: #DD0000;
+    border: 1px solid black;
+    color: white;
+}
+
+QLabel[wiresharkStatus="Connecting"] {
+    background-color: #F3CD34;
+    border: 1px solid black;
+    color: white;
+}
+
+QLabel[wiresharkStatus="Connected"] {
+    background-color: #4CAF50;
+    border: 1px solid black;
+    color: white;
+}
+
+QFrame#controlFrame {
+    border: transparent;
+    border-top: 1px solid #A0A0A0;
+    border-bottom: 1px solid #A0A0A0;
+}
+
+QFrame#toolbarFrame {
+    background-color: rgb(222, 0, 0);
+}
+
+QFrame#toolbarFrame QLabel {
+    color: white;
+    font: bold 18px;
+    margin: 9px;
+}
+
+QWidget#loggerTabForm QLabel#nameLabel {
+    font: 12px;
+}
+
+QFrame#toolbarFrame QToolButton {
+    color: white;
+    font: 15px;
+}
+
+QFrame#toolbarFrame QToolButton::menu-button {
+    color: white;
+}
+
+QWidget#emptyViewPage QLabel {
+    font: 25px;
+}
+
+QTabBar::close-button {
+    image: url(:/images/x_icon_h.svg)
+}
+
+QTabBar::close-button:hover {
+    image: url(:/images/x_icon.svg)
+}
+
+QSplitter::handle:horizontal {
+    background: #C7C7C7;
+    width: 5px;
+    image: url(:/images/horizontal_splitter_handle.png);
+}
+
+QLabel {
+    font: 'Helvetica Neue';
+}
+
+QMainWindow {
+    background-color: white;
+}

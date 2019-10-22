@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<iarUserArgVars>
+  <group active="true" name="CC13X2_PLUGIN_AND_SDK">
+    <variable>
+      <name>XDCPATH</name>
+      <value>c:/ti/simplelink_cc13x2_26x2_sdk_3_20_00_68/kernel/tirtos/packages;c:/ti/simplelink_cc13x2_26x2_sdk_3_20_00_68/source</value>
+    </variable>
+    <variable>
+      <name>XDCROOT</name>
+      <value>c:/ti/xdctools_3_51_02_21_core</value>
+    </variable>
+    <variable>
+      <name>SIMPLELINK_CC13X2_26X2_SDK_INSTALL_DIR</name>
+      <value>c:/ti/simplelink_cc13x2_26x2_sdk_3_20_00_68</value>
+    </variable>
+    <variable>
+      <name>EXAMPLE_ROOT</name>
+      <value>c:/ti/swol_0_01_01_00/tools/iar</value>
+    </variable>
+    <variable>
+      <name>SWOL_INSTALL_DIR</name>
+      <value>c:/ti/swol_0_01_01_00</value>
+    </variable>
+    <variable>
+      <name>FREERTOS_INSTALL_DIR</name>
+      <value>c:/FreeRTOSv10.0.0</value>
+    </variable>
+
+  </group>
+</iarUserArgVars>

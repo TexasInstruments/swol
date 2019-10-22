@@ -1,0 +1,30 @@
+[
+  {
+    "id": "swo",
+    "project": "SWO",
+    "name": "SimpleLink SWO",
+    "icon": "loggers/swo/swo.svg",
+    "binary": "../logger/logger.exe"
+  },
+  {
+    "id": "dragon",
+    "project": "Dragon",
+    "name": "SimpleLink Dragon",
+    "icon": "loggers/dragon/cc3300.svg",
+    "binary": "loggers/win/gServer_cc3300/gserver.exe"
+  },
+  {
+    "id": "nwp",
+    "project": "NWP",
+    "name": "CC32xx",
+    "icon": "loggers/win/gServer_cc32xx/cc32xx.svg",
+    "binary": "loggers/win/gServer_cc32xx/gserver.exe"
+  },
+  {
+    "id": "mac",
+    "project": "MAC",
+    "name": "CC32xx",
+    "icon": "loggers/win/gServer_cc32xx/cc32xx.svg",
+    "binary": "loggers/win/gServer_cc32xx/gserver.exe"
+  }
+]

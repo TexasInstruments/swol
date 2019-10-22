@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectSpec>
+    <applicability>
+        <when>
+            <context
+                deviceFamily="ARM"
+                deviceId="Cortex M.CC2640R2F"
+            />
+        </when>
+    </applicability>
+
+    <import spec="${COM_TI_SIMPLELINK_CC2640R2_SDK_INSTALL_DIR}/kernel/tirtos/builds/CC2640R2_LAUNCHXL/release/ccs/tirtos_builds_CC2640R2_LAUNCHXL_release_ccs.projectspec"/>
+
+    <project
+        title="swol"
+        name="swol_test_CC2640R2_LAUNCHXL_tirtos_ccs"
+        toolChain="TI"
+        connection="TIXDS110_Connection.xml"
+        device="Cortex M.CC2640R2F"
+        ignoreDefaultDeviceSettings="true"
+        ignoreDefaultCCSSettings="true"
+        references="tirtos_builds_CC2640R2_LAUNCHXL_release_ccs"
+        products="com.ti.SWOL"
+        compilerBuildOptions="
+            -I${PROJECT_ROOT}
+            -I${COM_TI_SIMPLELINK_CC2640R2_SDK_INSTALL_DIR}/source/ti/posix/ccs
+            -I${COM_TI_SWOL_INSTALL_DIR}/source
+            -DxSWO_PcSampling_ENABLE
+            -DSWO_LogModule_ENABLE_ALL
+            -DSWO_LogLevel_ENABLE_KERNELLOG
+            -DSWO_LogLevel_ENABLE_INFO
+            -DSWO_LogLevel_ENABLE_WARNING
+            -DSWO_LogLevel_ENABLE_ERROR
+            -DSWO_LogLevel_ENABLE_USER1
+            -DDeviceFamily_CC26X0R2
+            --silicon_version=7M3
+            --code_state=16
+            --little_endian
+            --display_error_number
+            --diag_warning=255
+            --diag_wrap=off
+            --gen_func_subsections=on
+            --float_support=vfplib
+            --symdebug:dwarf
+            -I${CG_TOOL_ROOT}/include
+        "
+        linkerBuildOptions="
+             -i${COM_TI_SIMPLELINK_CC2640R2_SDK_INSTALL_DIR}/source
+             -lti/display/lib/display.aem3
+             -lti/grlib/lib/ccs/m3/grlib.a
+             -lthird_party/spiffs/lib/ccs/m3/spiffs_cc26xx.a
+             -lti/drivers/lib/drivers_cc26x0r2.aem3
+             -i${COM_TI_SIMPLELINK_CC2640R2_SDK_INSTALL_DIR}/kernel/tirtos/packages
+             -lti/dpl/lib/dpl_cc26x0r2.aem3
+             -l${GENERATED_LIBRARIES}
+             -lti/devices/cc26x0r2/driverlib/bin/ccs/driverlib.lib
+             --warn_sections
+             --display_error_number
+             --diag_wrap=off
+             --rom_model
+             -i${CG_TOOL_ROOT}/lib
+             -llibc.a
+        "
+        preBuildStep="
+        "
+        postBuildStep="
+        "
+        description="SWOL Test">
+
+        <property name="buildProfile" value="release"/>
+        <property name="isHybrid" value="true"/>
+        <group id="swol_test.SWOL.CC2640R2_LAUNCHXL.swol.TI"/>
+        <file path="../../Application/README.html" openOnCreation="false" excludeFromBuild="false" action="copy" targetDirectory="Application">
+        </file>
+        <file path="../../Application/swo_test.c" openOnCreation="false" excludeFromBuild="false" action="copy" targetDirectory="Application">
+        </file>
+        <file path="../../Drivers/SWO/SWO.c" openOnCreation="false" excludeFromBuild="false" action="copy" targetDirectory="Drivers/SWO">
+        </file>
+        <file path="../../Drivers/SWO/SWO.h" openOnCreation="false" excludeFromBuild="false" action="copy" targetDirectory="Drivers/SWO">
+        </file>
+        <file path="../../Drivers/SWO/SWOCC26XX.c" openOnCreation="false" excludeFromBuild="false" action="copy" targetDirectory="Drivers/SWO">
+        </file>
+        <file path="../../Drivers/SWO/SWOCC26XX.h" openOnCreation="false" excludeFromBuild="false" action="copy" targetDirectory="Drivers/SWO">
+        </file>
+        <file path="../../Drivers/SWO/SWOUtils.h" openOnCreation="false" excludeFromBuild="false" action="copy" targetDirectory="Drivers/SWO">
+        </file>
+        <file path="../../ccfg.c" openOnCreation="false" excludeFromBuild="false" action="copy">
+        </file>
+        <file path="../../Startup/main_tirtos.c" openOnCreation="false" excludeFromBuild="false" action="copy">
+        </file>
+        <file path="../../Board.h" openOnCreation="false" excludeFromBuild="false" action="copy">
+        </file>
+        <file path="../../CC2640R2_LAUNCHXL.c" openOnCreation="false" excludeFromBuild="false" action="copy">
+        </file>
+        <file path="../../CC2640R2_LAUNCHXL.h" openOnCreation="false" excludeFromBuild="false" action="copy">
+        </file>
+        <file path="../../CC2640R2_LAUNCHXL_fxns.c" openOnCreation="false" excludeFromBuild="false" action="copy">
+        </file>
+        <file path="../../tirtos/ccs/CC2640R2_LAUNCHXL_TIRTOS.cmd" openOnCreation="false" excludeFromBuild="false" action="copy">
+        </file>
+        <file path="../../PowerCC26XX_tirtos.c" openOnCreation="false" excludeFromBuild="false" action="copy">
+        </file>
+    </project>
+</projectSpec>
+

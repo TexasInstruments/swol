@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<iarUserArgVars>
+  <group active="true" name="CC2640R2_PLUGIN_AND_SDK">
+    <variable>
+      <name>XDCPATH</name>
+      <value>c:/ti/simplelink_cc2640r2_sdk_3_20_00_21/kernel/tirtos/packages;c:/ti/simplelink_cc2640r2_sdk_3_20_00_21/source</value>
+    </variable>
+    <variable>
+      <name>XDCROOT</name>
+      <value>c:/ti/xdctools_3_51_02_21_core</value>
+    </variable>
+    <variable>
+      <name>SIMPLELINK_CC2640R2_SDK_INSTALL_DIR</name>
+      <value>c:/ti/simplelink_cc2640r2_sdk_3_20_00_21</value>
+    </variable>
+    <variable>
+      <name>EXAMPLE_ROOT</name>
+      <value>c:/ti/swol_0_01_01_00/tools/iar</value>
+    </variable>
+    <variable>
+      <name>SWOL_INSTALL_DIR</name>
+      <value>c:/ti/swol_0_01_01_00</value>
+    </variable>
+    <variable>
+      <name>FREERTOS_INSTALL_DIR</name>
+      <value>c:/FreeRTOSv9.0.0</value>
+    </variable>
+
+  </group>
+</iarUserArgVars>
