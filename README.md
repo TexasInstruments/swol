@@ -1,6 +1,6 @@
 # Single Wire Output Logger (SWOL)
 
-# Moved to https://github.com/TexasInstruments/swol
+# Moved from https://github.com/ti-simplelink/swol
 ![SWOL Logo](images/swol_logo.png)
 
 SWOL is an ecosystem to provide extensive, flexible, yet minimally invasive debug information using
